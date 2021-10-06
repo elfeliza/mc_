@@ -97,6 +97,7 @@ int main(void)
     /* USER CODE END WHILE */
 		if (HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_SET)
 	  {
+	  	  HAL_Delay(500);
 		  counter+=1;
 	  }
 
