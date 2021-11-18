@@ -98,7 +98,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	uint8_t str[100];
+	uint8_t str[1];
 	const char ERROR[5] = "ERROR";
 	const char BLUE[100] = "The blue diode is on";
 	const char RED[100] = "The red diode is on";
@@ -108,9 +108,7 @@ int main(void)
 		uint8_t blue;
 		uint8_t red;
 		uint8_t green;	
-		uint8_t r; 
-		uint16_t s; 
-	} par = {0, 0, 0, 0, 0};
+	} par = {0, 0, 0};
 	
   while (1)
   {
