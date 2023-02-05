@@ -1,2 +1,2 @@
-# mc_
+# microcontrollers_lab
 dron, button, pin
